@@ -1,0 +1,21 @@
+{
+  "name": "welbexback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ga11et/welbexback.git",
+  "author": "Fyodor <sivkov1998@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-pool": "^3.5.2"
+  },
+  "scripts": {
+    "build": "node ./src/index.js",
+    "serve": "nodemon ./src/index.js -watch"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
