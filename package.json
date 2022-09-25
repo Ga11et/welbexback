@@ -12,8 +12,8 @@
     "pg-pool": "^3.5.2"
   },
   "scripts": {
-    "build": "node ./src/index.js",
-    "serve": "nodemon ./src/index.js -watch"
+    "serve": "nodemon ./src/index.js -watch",
+    "start": "node ./src/index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
